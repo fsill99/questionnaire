@@ -1,0 +1,4 @@
+SELECT Users.SecondName, Users.FirstName, Evaluations.Grade
+FROM ((Evaluations INNER JOIN QuestionnaireSessions ON Evaluations.QUESTIONNAIRESESSION_ID=QuestionnaireSessions.ID) INNER JOIN Students ON Evaluations.STUDENT_ID=Students.ID) INNER JOIN Users ON Students.USER_ID=Users.ID
+WHERE QuestionnaireSessions.ID=[INSERISCI ID]
+ORDER BY Users.SecondName;

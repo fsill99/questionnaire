@@ -1,0 +1,4 @@
+NON MODIFICARE LA LIBRERIA, ALTRIMENTI CI SARA' UN ERRORE NEL SERVER!!!!
+Per risolverlo devi copiare QuestionnaireLib.dll in C:\inetpub\wwwroot\Release e
+e incollarlo in C:\inetpub\wwwroot\QuestionnaireServer\bin e 
+in C:\inetpub\wwwroot\QuestionnaireServer

@@ -1,0 +1,71 @@
+﻿.panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    color: grey;
+}
+
+.panel-heading a.collapsed:after {
+    content:"\e080";
+}
+
+.answer-wrong {
+    font-weight: bold !important;
+    color: #78242F;
+}
+
+.answer-wrong > label {
+    font-weight: bold !important;
+    color: #78242F;
+}
+
+.answer-correct {
+    font-weight: bold !important;
+    color: #268500;
+}
+
+.answer-correct > label {
+    font-weight: bold !important;
+    color: #268500;
+}
+
+.answer-unanswered {
+    font-weight: bold !important;
+    color: #d0a727;
+}
+
+.answer-unanswered > label {
+    font-weight: bold !important;
+    color: #d0a727;
+}
+
+.question-wrong > .panel-heading {
+    background-color:#F0677A !important;
+    border-color:#F0677A !important;
+}
+
+.question-wrong > .panel-collapse{
+    background-color:#F5B3BC !important;
+}
+
+.question-correct > .panel-heading {
+    background-color:#66E366 !important;
+    border-color:#66E366 !important;
+}
+
+.question-correct > .panel-collapse{
+    background-color:#AEF2AE !important;
+}
+
+.question-unanswered > .panel-collapse {
+    background-color:#FCE195 !important;
+}
+
+.question-unanswered > .panel-heading {
+    background-color:#FFD052 !important;
+    border-color:#FFD052 !important;
+}
+
+#evaluation {
+    background-color:#EBEBEB !important;
+}

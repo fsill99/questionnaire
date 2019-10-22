@@ -1,0 +1,19 @@
+In caso di errore 500 interno del server seguire questi passaggi:
+
+1.Open IIS Manager. For information about opening IIS Manager, see Open IIS Manager (IIS 7).
+
+2.In the Connections pane, expand the server node and click Application Pools.
+
+3.On the Application Pools page, select the application pool for which you want to specify an identity, and then click Advanced Settings in the Actions pane.
+
+4.For the Identity property, click the ... button to open the Application Pool Identity dialog box.
+
+5.If you want to use a built-in account, select the Built-in account option and select to LocalSystem  account from the list.
+
+6. Click OK to dismiss the Application Pool Identity dialog box.
+
+
+
+E per visualizzare l'errore dettagliato seguire questi passaggi:
+
+Internet Information Services (IIS) Manager —> Default Web Site —> Click Error Pages properties and select Detail errors
